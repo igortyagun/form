@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Формы</title>
+</head>
+<body>
+    <main>
+        <form action="index-form.html" method="get" name="">
+            <fieldset>
+                <p>Main info</p>
+                    <div class="row">
+                    <label class="mail-info" for="name">First name:</label>
+                    <input class="main-input" id="name" type="text" tabindex="1" placeholder="First name" required="required" disabled>
+                    </div>
+                            <div class="row">
+                        <label class="mail-info" for="sname">Second name:</label>
+                        <input class="main-input" id="sname" type="text" placeholder="Second Name">
+                            </div>
+                            <div class="row">
+                            <label class="mail-info" for="passw">Password</label>
+                            <input class="main-input" id="passw" type="password" name="" placeholder="Password">
+                            </div>
+                                <div class="row">
+                                <label class="mail-info" for="tel">Tel</label>
+                                <input class="main-input" id="tel" name="" type="tel" placeholder="Your tel">
+                                </div>
+                                    <div class="row">
+                                    <label class="mail-info" for="number">CVV </label>
+                                    <input class="main-input" id="number" name="" type="number">
+                                    </div>
+                                        <div class="row">
+                                        <label class="mail-info" for="file"> </label>
+                                        <input class="main-input" id="file" name="" type="file">
+                                        </div>
+            </fieldset>
+            <fieldset>
+                <p>Loren insp</p>
+                <label for="ch1">1</label><input id="ch1" name="list" type="checkbox" value="1">
+                <label for="ch2">2</label><input id="ch2" name="list" type="checkbox" value="2">
+                <label for="ch3">3</label><input id="ch3" name="list" type="checkbox" value="3">
+            </fieldset>
+            <fieldset>
+                <p>Gender</p>
+                <label class="radio-style" for="radio1">Men </label><input class="radio-input" id="radio1" name="male" type="radio">
+                <label class="radio-style" for="radio2">Women </label><input class="radio-input" id="radio2" name="male" type="radio">
+            </fieldset>
+            <fieldset>
+            <select name="select" id="select">
+                <option value="" name="opt1">1</option>
+                <option value="" name="opt2">2</option>
+                <option value="" name="opt3">3</option>
+            </select>
+                </fieldset>
+            <fieldset>
+                <label for="range"> </label> <input id="range" name="" type="range">
+            </fieldset>
+
+            <fieldset>
+                <p>Comment</p>
+            <textarea name="" id="" rows="10" cols="30">Комментарий </textarea>
+            </fieldset>
+
+            <fieldset>
+                <p>Send</p>
+                       <button type="submit"> Send Us a Message</button>
+            </fieldset>
+
+        </form>
+    </main>
+
+</body>
+</html>
